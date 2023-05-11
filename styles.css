@@ -1,0 +1,1380 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+.main {
+  background: #0D151D;
+  font-family: "Jost", sans-serif;
+}
+.main .title-section {
+  background-image: url("/img/title-shadow-bg.png"), url("/img/title-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main .title-section .header {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .title-section .header .menu-bar {
+  display: none;
+}
+.main .title-section .header .navbar {
+  gap: 40px;
+  display: flex;
+}
+.main .title-section .header .navbar div {
+  transition: 0.6s;
+}
+.main .title-section .header .navbar div a {
+  font-size: 26px;
+  text-decoration: none;
+  color: white;
+}
+.main .title-section .header .navbar div a span {
+  color: #00FFE0;
+  border: none;
+}
+.main .title-section .header .navbar div:hover {
+  border-bottom: 1px solid #00FFE0;
+}
+.main .title-section .title-items {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .title-section .title-items h1 {
+  color: white;
+  font-size: 100px;
+}
+.main .title-section .title-items h2 {
+  color: white;
+  font-size: 64px;
+}
+.main .title-section .title-items h2 span {
+  color: #12AAFF;
+}
+.main .title-section .title-items h2 img {
+  margin-left: 10px;
+}
+.main .title-section .title-items .buy-btn {
+  display: block;
+  margin-top: 50px;
+  background: linear-gradient(90.22deg, #009FD1 -11.07%, #00FFD1 106.59%);
+  border-radius: 35.2949px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 22px 68px;
+  font-size: 26px;
+  box-shadow: 0 0 20px #00FFD1;
+  transition: 0.3s;
+}
+.main .title-section .title-items .buy-btn:hover {
+  box-shadow: 0 0 30px #009FD1;
+}
+.main .title-section .title-items .contract-btn {
+  font-family: "Montserrat", sans-serif;
+  background: inherit;
+  color: white;
+  border: 1px solid #FFFFFF;
+  padding: 15px 83px;
+  border-radius: 35.2949px;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+.main .title-section .title-items .contract-btn:hover {
+  color: gray;
+  border: 1px solid gray;
+}
+.main .section-1 {
+  background: #0D151D;
+  padding: 60px 0;
+}
+.main .section-1 .wallet-block {
+  background: #14212D;
+  border-radius: 30px;
+  display: flex;
+  padding: 47px 95px;
+}
+.main .section-1 .wallet-block .col-1 {
+  width: 60%;
+  border-right: 1px solid white;
+}
+.main .section-1 .wallet-block .col-1 img {
+  width: 135px;
+  height: 135px;
+  display: block;
+}
+.main .section-1 .wallet-block .col-1 .wallet-title {
+  margin-top: 50px;
+  display: flex;
+  font-size: 24px;
+}
+.main .section-1 .wallet-block .col-1 .balance .coin {
+  background: linear-gradient(93.22deg, #00FFE0 0.61%, #008DD7 99.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 35px;
+}
+.main .section-1 .wallet-block .col-1 .balance span {
+  font-size: 72px;
+}
+.main .section-1 .wallet-block .col-1 .buttons {
+  width: 100%;
+  display: flex;
+  gap: 57px;
+}
+.main .section-1 .wallet-block .col-1 .buttons .add {
+  background: inherit;
+  box-shadow: none;
+  border: 1px solid #FFFFFF;
+  color: white;
+}
+.main .section-1 .wallet-block .col-1 .buttons .add:hover {
+  color: gray;
+  border: 1px solid gray;
+  box-shadow: none;
+}
+.main .section-1 .wallet-block .col-1 .buttons button {
+  margin-top: 37px;
+  display: block;
+  background: linear-gradient(90.22deg, #009FD1 -11.07%, #00FFD1 106.59%);
+  border-radius: 35.2949px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  box-shadow: 0 0 20px #00FFD1;
+  transition: 0.3s;
+  padding: 17px 53px;
+}
+.main .section-1 .wallet-block .col-1 .buttons button:hover {
+  box-shadow: 0 0 30px #009FD1;
+}
+.main .section-1 .wallet-block .col-1 span {
+  color: white;
+}
+.main .section-1 .wallet-block .col-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .section-1 .wallet-block .col-2 .coin-balance {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main .section-1 .wallet-block .col-2 .coin-balance span {
+  width: auto;
+  display: block;
+  color: white;
+  font-size: 25px;
+}
+.main .section-1 .wallet-block .col-2 .coin-balance .airdrop {
+  color: #00FFE0;
+}
+.main .section-1 .wallet-block .col-2 .balance {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .section-1 .wallet-block .col-2 .balance .title {
+  font-size: 27px;
+}
+.main .section-1 .wallet-block .col-2 .balance .coin-name {
+  margin-left: 20px;
+}
+.main .section-1 .wallet-block .col-2 .balance .coin-name span {
+  color: #00FFE0;
+}
+.main .section-1 .wallet-block .col-2 .balance span {
+  font-size: 42px;
+  color: white;
+}
+.main .section-1 .wallet-block .col-2 .balance button {
+  margin-top: 60px;
+  display: block;
+  background: linear-gradient(90.22deg, #009FD1 -11.07%, #00FFD1 106.59%);
+  border-radius: 35.2949px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  box-shadow: 0 0 20px #00FFD1;
+  transition: 0.3s;
+  padding: 17px 53px;
+}
+.main .section-1 .wallet-block .col-2 .balance button:hover {
+  box-shadow: 0 0 30px #009FD1;
+}
+.main .section-1 .info-block {
+  margin-top: 126px;
+  color: white;
+}
+.main .section-1 .info-block h1 {
+  text-align: center;
+  font-size: 53px;
+}
+.main .section-1 .info-block h1 span {
+  color: #00FFE0;
+}
+.main .section-1 .info-block .info-description {
+  margin-top: 80px;
+  display: flex;
+  font-size: 26px;
+  gap: 130px;
+  align-items: center;
+}
+.main .section-1 .info-block .info-description .difficult {
+  color: #009FD1;
+}
+.main .section-1 .roadmap {
+  margin-top: 141px;
+}
+.main .section-1 .roadmap h1 {
+  color: white;
+  text-align: center;
+}
+.main .section-1 .roadmap h1 span {
+  color: #00FFE0;
+}
+.main .section-1 .roadmap .roadmap-items {
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+}
+.main .section-1 .roadmap .roadmap-items .grasses {
+  display: flex;
+  flex-direction: column;
+}
+.main .section-1 .roadmap .roadmap-items .grasses .relative-grasses-1 {
+  position: relative;
+  bottom: 50px;
+}
+.main .section-1 .roadmap .roadmap-items .grasses .relative-grasses-2 {
+  position: relative;
+  bottom: 100px;
+}
+.main .section-1 .roadmap .roadmap-items .grasses .relative-grasses-3 {
+  position: relative;
+  bottom: 150px;
+}
+.main .section-1 .roadmap .roadmap-items .grasses .relative-grasses-4 {
+  position: relative;
+  bottom: 200px;
+}
+.main .section-1 .roadmap .roadmap-items .grasses .relative-grasses-5 {
+  position: relative;
+  bottom: 250px;
+}
+.main .section-1 .roadmap .roadmap-items .grasses .relative-grasses-6 {
+  position: relative;
+  bottom: 300px;
+}
+.main .section-1 .roadmap .roadmap-items .grasses .relative-grasses-7 {
+  position: relative;
+  bottom: 350px;
+}
+.main .section-1 .roadmap .roadmap-items .grasses .adaptive {
+  display: none;
+}
+.main .section-1 .roadmap .roadmap-items .grasses img {
+  width: 80px;
+}
+.main .section-1 .roadmap .roadmap-items .phases {
+  display: flex;
+  flex-direction: column;
+}
+.main .section-1 .roadmap .roadmap-items .phases .sticker {
+  padding-top: 120px;
+}
+.main .section-1 .roadmap .roadmap-items .phases .phase {
+  margin-top: 75px;
+  background: #060B10;
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  border-radius: 30px;
+}
+.main .section-1 .roadmap .roadmap-items .phases .phase .phase-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 59px;
+  margin-right: 86px;
+  align-items: center;
+}
+.main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text {
+  color: white;
+  font-size: 24px;
+}
+.main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text .phase-title {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+.main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text span {
+  display: block;
+}
+.main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-img-block {
+  display: flex;
+  justify-content: center;
+}
+.main .section-2 {
+  background: #14212D;
+  padding: 90px 0;
+}
+.main .section-2 h1 {
+  text-align: center;
+  color: white;
+  font-size: 53px;
+}
+.main .section-2 h1 span {
+  color: #00FFE0;
+}
+.main .section-2 .instructions-items {
+  display: flex;
+  gap: 40px;
+  margin-top: 100px;
+}
+.main .section-2 .instructions-items .instructions-block {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.main .section-2 .instructions-items .instructions-block .instruction {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main .section-2 .instructions-items .instructions-block .instruction .instruction-text .instruction-title {
+  font-size: 47px;
+}
+.main .section-2 .instructions-items .instructions-block .instruction .instruction-text span {
+  display: block;
+  color: white;
+  font-size: 33px;
+}
+.main .section-2 .instructions-items .instructions-block .instruction .instruction-text .any {
+  color: #00FFD1;
+}
+.main .section-2 .instructions-items .instructions-block .instruction img {
+  width: 100px;
+}
+.main .section-3 {
+  background: #0D151D;
+  padding: 114px 0;
+}
+.main .section-3 h1 {
+  color: white;
+  font-size: 53px;
+  text-align: center;
+}
+.main .section-3 h1 span {
+  color: #00FFE0;
+}
+.main .section-3 .diagram-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+}
+.main .section-3 .diagram-items .diagram-numbers {
+  width: 100%;
+  position: absolute;
+  color: white;
+}
+.main .section-3 .diagram-items .diagram-numbers span {
+  font-size: 37px;
+  display: block;
+}
+.main .section-3 .diagram-items .diagram-numbers .number {
+  font-size: 90px;
+}
+.main .section-3 .diagram-items .diagram-numbers .number-block {
+  position: relative;
+  width: 200px;
+  text-align: center;
+}
+.main .section-3 .diagram-items .diagram-numbers .airdrop {
+  bottom: 180px;
+  left: 460px;
+}
+.main .section-3 .diagram-items .diagram-numbers .locked {
+  bottom: 150px;
+  left: 130px;
+}
+.main .section-3 .diagram-items .diagram-numbers .preasale {
+  bottom: 200px;
+  left: 1180px;
+}
+.main .section-3 .diagram-items .diagram-numbers .team {
+  bottom: 100px;
+  left: 100px;
+}
+.main .section-3 .diagram-items .diagram-numbers .marketing {
+  top: 50px;
+  left: 500px;
+}
+.main .section-3 .diagram-items-test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+}
+.main .section-3 .diagram-items-test img {
+  margin-top: 180px;
+}
+.main .section-3 .diagram-items-test .diagram-numbers-t {
+  width: 100%;
+  position: absolute;
+  color: white;
+}
+.main .section-3 .diagram-items-test .diagram-numbers-t span {
+  font-size: 37px;
+  display: block;
+}
+.main .section-3 .diagram-items-test .diagram-numbers-t .number {
+  font-size: 90px;
+}
+.main .section-3 .diagram-items-test .diagram-numbers-t .number-block-t {
+  width: 200px;
+  text-align: center;
+}
+.main .section-3 .diagram-items-test .diagram-numbers-t .airdrop-t {
+  margin-left: 400px;
+}
+.main .section-3 .diagram-items-test .diagram-numbers-t .locked-t {
+  bottom: 150px;
+  left: 130px;
+}
+.main .section-3 .diagram-items-test .diagram-numbers-t .preasale-t {
+  bottom: 200px;
+  left: 1180px;
+}
+.main .section-3 .diagram-items-test .diagram-numbers-t .team {
+  bottom: 100px;
+  left: 100px;
+}
+.main .section-3 .diagram-items-test .diagram-numbers-t .marketing {
+  top: 50px;
+  left: 500px;
+}
+.main .section-3 .total {
+  margin-top: 300px;
+}
+.main .section-3 .total .total-items {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.main .section-3 .total .total-items span {
+  margin-top: 40px;
+  color: white;
+  font-size: 37px;
+  display: block;
+}
+.main .section-3 .air-event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .section-3 .air-event h1 {
+  margin-top: 141px;
+  font-size: 90px;
+}
+.main .section-3 .air-event h1 span {
+  color: #00FFE0;
+  font-size: 90px;
+}
+.main .section-3 .air-event span {
+  color: white;
+  font-size: 50px;
+}
+.main .section-3 .air-event img {
+  display: block;
+}
+.main .section-3 .partners .partners-items {
+  margin-top: 100px;
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
+.main .section-3 .partners .partners-items .first-partner {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.main .section-3 .partners .partners-items .first-partner a {
+  cursor: pointer;
+  width: 560px;
+  height: 120px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .section-3 .partners .partners-items .second-partner {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.main .section-3 .partners .partners-items .second-partner a {
+  cursor: pointer;
+  width: 560px;
+  height: 120px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .footer {
+  background: #0D151D;
+  height: 150px;
+}
+.main .footer .footer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.main .footer .footer-items .contacts {
+  display: flex;
+  gap: 52px;
+  align-items: center;
+}
+.main .footer .footer-items img {
+  display: block;
+}
+.main .adaptive-menu {
+  display: none;
+  transition: 0.3s;
+  width: 50%;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: #14212D;
+  box-shadow: 0 3px 12px -4px rgba(0, 0, 0, 0.7);
+}
+.main .adaptive-menu img {
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.main .adaptive-menu .navbar {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+  padding-left: 20px;
+}
+.main .adaptive-menu .navbar div {
+  transition: 0.6s;
+}
+.main .adaptive-menu .navbar div a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+.main .adaptive-menu .navbar div a span {
+  color: #00FFE0;
+  border: none;
+}
+.main .adaptive-menu .navbar div:hover {
+  border-bottom: 1px solid #00FFE0;
+}
+
+@media screen and (max-width: 1400px) {
+  .main .title-section .header {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main .title-section .title-items h1 {
+    text-align: center;
+  }
+  .main .section-1 .wallet-block .col-1 .buttons button {
+    font-size: 18px;
+  }
+  .main .section-1 .wallet-block .col-2 .balance button {
+    font-size: 18px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    bottom: 180px;
+    left: 460px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .locked {
+    bottom: 150px;
+    left: 130px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    bottom: 200px;
+    left: 1070px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    bottom: 100px;
+    left: 100px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: 220px;
+    left: 500px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block span {
+    font-size: 30px;
+    display: block;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block .number {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    left: 350px;
+    bottom: 130px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .locked {
+    left: 100px;
+    bottom: 100px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 1030px;
+    bottom: 100px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    left: 50px;
+    top: 200px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: 400px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block {
+    width: 110px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block span {
+    font-size: 24px;
+    display: block;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block .number {
+    font-size: 50px;
+  }
+  .main .section-3 .partners .partners-items {
+    gap: 50px;
+  }
+  .main .section-3 .partners .partners-items .first-partner a {
+    cursor: pointer;
+    width: 500px;
+    height: 120px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .section-3 .partners .partners-items .second-partner a {
+    cursor: pointer;
+    width: 500px;
+    height: 120px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .section-1 .wallet-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .section-1 .wallet-block .col-1 {
+    width: 100%;
+    border: none;
+  }
+  .main .section-1 .wallet-block .col-1 .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .main .section-1 .wallet-block .col-2 {
+    margin-top: 82px;
+    width: 100%;
+  }
+  .main .section-1 .wallet-block .col-2 .coin-balance .coin-names {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main .section-1 .wallet-block .col-2 .coin-balance .coin-count {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main .section-1 .wallet-block .col-2 .balance {
+    margin-top: 50px;
+  }
+  .main .section-1 .roadmap .roadmap-items {
+    gap: 20px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .sticker {
+    width: 60px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text {
+    font-size: 20px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text .phase-title {
+    font-size: 28px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-img {
+    width: 200px;
+  }
+  .main .section-2 .instructions-items {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+  }
+  .main .section-2 .instructions-items .instructions-block {
+    width: 500px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    bottom: 100px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .locked {
+    bottom: 0;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 950px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    left: 20px;
+    top: 140px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: 480px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block .number-title {
+    font-size: 20px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block .number {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .main .section-3 .diagram-items img {
+    width: 70%;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .locked {
+    left: 30px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 800px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    bottom: 200px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    left: 300px;
+    top: 300px;
+  }
+  .main .section-3 .partners .partners-items {
+    gap: 40px;
+  }
+  .main .section-3 .partners .partners-items .first-partner a {
+    width: 400px;
+    height: 100px;
+  }
+  .main .section-3 .partners .partners-items .first-partner a img {
+    width: 200px;
+  }
+  .main .section-3 .partners .partners-items .second-partner a {
+    width: 400px;
+    height: 100px;
+  }
+  .main .section-3 .partners .partners-items .second-partner a img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .title-section .header {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main .title-section .header .menu-bar {
+    display: block;
+  }
+  .main .title-section .header .navbar {
+    display: none;
+  }
+  .main .title-section .title-items {
+    height: 600px;
+  }
+  .main .title-section .title-items h1 {
+    font-size: 80px;
+    text-align: start;
+  }
+  .main .title-section .title-items h2 {
+    font-size: 42px;
+  }
+  .main .title-section .title-items .buy-btn {
+    font-size: 16px;
+  }
+  .main .title-section .title-items .contract-btn {
+    font-size: 14px;
+  }
+  .main .section-1 .wallet-block .col-1 .balance {
+    display: flex;
+  }
+  .main .section-1 .wallet-block .col-1 .balance span {
+    font-size: 50px;
+  }
+  .main .section-1 .wallet-block .col-1 .buttons button {
+    font-size: 14px;
+  }
+  .main .section-1 .wallet-block .col-2 .balance button {
+    font-size: 14px;
+  }
+  .main .section-1 .info-block h1 {
+    font-size: 40px;
+  }
+  .main .section-1 .info-block .info-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .main .section-1 .info-block .info-description .info-text {
+    width: 100%;
+  }
+  .main .section-1 .info-block .info-description .info-text span {
+    font-size: 24px;
+    text-align: center;
+  }
+  .main .section-1 .roadmap h1 {
+    font-size: 40px;
+  }
+  .main .section-1 .roadmap .roadmap-items .grasses img {
+    width: 60px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .sticker {
+    width: 30px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text {
+    font-size: 14px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text .phase-title {
+    font-size: 18px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-img {
+    width: 100px;
+  }
+  .main .section-2 h1 {
+    font-size: 40px;
+  }
+  .main .section-2 .instructions-items .instructions-block .instruction {
+    width: 100%;
+  }
+  .main .section-2 .instructions-items .instructions-block .instruction .instruction-text span {
+    font-size: 26px;
+  }
+  .main .section-2 .instructions-items .instructions-block .instruction .instruction-text .instruction-title {
+    font-size: 32px;
+  }
+  .main .section-3 h1 {
+    font-size: 40px;
+  }
+  .main .section-3 .diagram-items {
+    margin-top: 150px;
+  }
+  .main .section-3 .diagram-items img {
+    width: 100%;
+  }
+  .main .section-3 .total {
+    margin-top: 150px;
+  }
+  .main .section-3 .total .total-items span {
+    font-size: 26px;
+  }
+  .main .section-3 .air-event h1 {
+    margin-top: 100px;
+    font-size: 60px;
+  }
+  .main .section-3 .air-event h1 span {
+    font-size: 60px;
+  }
+  .main .section-3 .air-event span {
+    font-size: 40px;
+  }
+  .main .footer .footer-items .contacts a img {
+    width: 40px;
+  }
+  .main .footer img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .main .section-3 .diagram-items img {
+    width: 70%;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    left: 300px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .locked {
+    left: 140px;
+    bottom: 80px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 700px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    left: 130px;
+    top: 50px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    left: 350px;
+    top: 100px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    left: 300px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .locked {
+    left: 100px;
+    bottom: 80px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 650px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    left: 100px;
+    top: 50px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    left: 350px;
+    top: 100px;
+  }
+  .main .section-3 .partners .partners-items .first-partner a {
+    width: 300px;
+    height: 80px;
+  }
+  .main .section-3 .partners .partners-items .second-partner a {
+    width: 300px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .title-section .title-items h1 {
+    font-size: 70px;
+  }
+  .main .title-section .title-items h2 {
+    font-size: 36px;
+  }
+  .main .section-1 .wallet-block {
+    padding: 30px 20px;
+  }
+  .main .section-1 .wallet-block .col-1 .buttons button {
+    padding: 0 0;
+    width: 200px;
+    height: 60px;
+  }
+  .main .section-1 .wallet-block .col-2 .coin-balance {
+    display: flex;
+    gap: 20px;
+  }
+  .main .section-1 .info-block .info-description .info-text span {
+    font-size: 20px;
+  }
+  .main .section-1 .roadmap .roadmap-items {
+    height: 770px;
+  }
+  .main .section-1 .roadmap .roadmap-items .grasses .adaptive {
+    display: initial;
+  }
+  .main .section-1 .roadmap .roadmap-items .grasses img {
+    width: 30px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase {
+    margin-top: 30px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .sticker {
+    padding-top: 50px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text .phase-title {
+    font-size: 16px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text span {
+    font-size: 12px;
+  }
+  .main .section-3 .diagram-items img {
+    width: 100%;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    left: 260px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 590px;
+    bottom: 200px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .locked {
+    left: 30px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    top: 100px;
+    left: 50px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: 160px;
+  }
+  .main .section-3 .total .total-items .total-title span {
+    font-size: 22px;
+  }
+  .main .section-3 .total .total-items .total-info span {
+    font-size: 22px;
+  }
+  .main .footer .footer-items {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .main .footer .footer-items .contacts a img {
+    width: 60px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main .section-3 .diagram-items img {
+    width: 70%;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    left: 230px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .locked {
+    left: 40px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 500px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    top: 0;
+    left: 100px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: 0;
+  }
+  .main .adaptive-menu .navbar {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+    padding-left: 20px;
+  }
+  .main .adaptive-menu .navbar div {
+    transition: 0.6s;
+  }
+  .main .adaptive-menu .navbar div a {
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+  }
+  .main .adaptive-menu .navbar div a span {
+    color: #00FFE0;
+    border: none;
+  }
+  .main .adaptive-menu .navbar div:hover {
+    border-bottom: 1px solid #00FFE0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .main .section-3 .partners .partners-items .first-partner a {
+    width: 250px;
+    height: 80px;
+  }
+  .main .section-3 .partners .partners-items .second-partner a {
+    width: 250px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    left: 200px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 450px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    left: 40px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    left: 200px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    left: 160px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .locked {
+    left: 10px;
+    bottom: 30px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 450px;
+    bottom: 100px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .team {
+    left: 10px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: 100px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block {
+    width: 70px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block .number-title {
+    font-size: 16px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block .number {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .main .section-3 .total .total-items .total-title span {
+    font-size: 18px;
+  }
+  .main .section-3 .total .total-items .total-info span {
+    font-size: 18px;
+  }
+  .main .section-3 .partners .partners-items .first-partner a {
+    width: 200px;
+    height: 70px;
+  }
+  .main .section-3 .partners .partners-items .first-partner a img {
+    width: 150px;
+  }
+  .main .section-3 .partners .partners-items .second-partner a {
+    width: 200px;
+    height: 70px;
+  }
+  .main .section-3 .partners .partners-items .second-partner a img {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .main .title-section .title-items h1 {
+    font-size: 50px;
+  }
+  .main .section-2 .instructions-items .instructions-block {
+    width: 300px;
+  }
+  .main .section-2 .instructions-items .instructions-block .instruction {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .main .section-2 .instructions-items .instructions-block .instruction img {
+    width: 60px;
+  }
+  .main .section-2 .instructions-items .instructions-block .instruction .instruction-text span {
+    font-size: 20px;
+  }
+  .main .section-2 .instructions-items .instructions-block .instruction .instruction-text .instruction-title {
+    font-size: 24px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    bottom: 200px;
+    left: 380px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: 50px;
+  }
+  .main .section-3 .air-event img {
+    width: 100%;
+  }
+  .main .footer .footer-items .contacts a img {
+    width: 50px;
+  }
+  .main .adaptive-menu {
+    width: 70%;
+  }
+  .main .adaptive-menu .navbar div a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+}
+@media screen and (max-width: 520px) and (max-width: 450px) {
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    bottom: 70px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 310px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: 10px;
+  }
+  .main .section-3 .partners .partners-items {
+    margin-top: 50px;
+    gap: 10px;
+  }
+  .main .section-3 .partners .partners-items .first-partner a {
+    width: 170px;
+    height: 60px;
+  }
+  .main .section-3 .partners .partners-items .second-partner a {
+    width: 170px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 520px) and (max-width: 400px) {
+  .main .title-section .header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: start;
+  }
+  .main .title-section .header .logo {
+    width: 100%;
+  }
+  .main .title-section .header .logo img {
+    width: 140px;
+  }
+  .main .title-section .header .menu-bar {
+    width: 50px;
+  }
+  .main .title-section .title-items h1 {
+    font-size: 50px;
+  }
+  .main .title-section .title-items h2 {
+    font-size: 31px;
+  }
+  .main .title-section .title-items .buy-btn {
+    font-size: 14px;
+  }
+  .main .title-section .title-items .contract-btn {
+    font-size: 11px;
+  }
+  .main .section-1 .wallet-block .col-1 img {
+    width: 77px;
+    height: 77px;
+  }
+  .main .section-1 .wallet-block .col-1 .wallet-title {
+    margin-top: 27px;
+    font-size: 14px;
+  }
+  .main .section-1 .wallet-block .col-1 .balance span {
+    font-size: 40px;
+  }
+  .main .section-1 .wallet-block .col-1 .balance .coin {
+    margin-left: 10px;
+  }
+  .main .section-1 .wallet-block .col-1 .buttons {
+    gap: 10px;
+  }
+  .main .section-1 .wallet-block .col-1 .buttons button {
+    width: 170px;
+    height: 50px;
+  }
+  .main .section-1 .wallet-block .col-2 .coin-balance {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .main .section-1 .wallet-block .balance button {
+    width: 100%;
+    font-size: 20px;
+  }
+  .main .section-1 .info-block .info-description img {
+    width: 288px;
+  }
+  .main .section-1 .info-block .info-description .info-text span {
+    font-size: 16px;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items .phase-text {
+    width: 100%;
+  }
+  .main .section-1 .roadmap .roadmap-items .phases .phase .phase-items img {
+    display: none;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    bottom: 70px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    bottom: 170px;
+    left: 280px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: 10px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block .number-title {
+    font-size: 14px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .number-block .number {
+    font-size: 24px;
+  }
+  .main .section-3 .total {
+    margin-top: 70px;
+  }
+  .main .section-3 .total .total-items .total-title span {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .main .section-3 .total .total-items .total-info span {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 520px) and (max-width: 368px) {
+  .main .section-3 .diagram-items .diagram-numbers .airdrop {
+    left: 100px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .preasale {
+    left: 250px;
+  }
+  .main .section-3 .diagram-items .diagram-numbers .marketing {
+    top: -20px;
+    left: 150px;
+  }
+  .main .section-3 .partners .partners-items .first-partner a {
+    width: 140px;
+    height: 50px;
+  }
+  .main .section-3 .partners .partners-items .first-partner a img {
+    width: 100px;
+  }
+  .main .section-3 .partners .partners-items .second-partner a {
+    width: 140px;
+    height: 50px;
+  }
+  .main .section-3 .partners .partners-items .second-partner a img {
+    width: 100px;
+  }
+  .main .footer .footer-items .contacts {
+    gap: 30px;
+  }
+  .main .footer .footer-items .contacts a img {
+    width: 40px;
+  }
+}
+@media screen and (max-width: 520px) and (max-width: 355px) {
+  .main .title-section .title-items h1 {
+    font-size: 42px;
+  }
+  .main .title-section .title-items h2 {
+    font-size: 28px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
