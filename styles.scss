@@ -17,6 +17,22 @@
       justify-content: space-between;
       align-items: center;
 
+      .logo {
+        display: flex;
+        align-items: center;
+        img {
+          width: 100px;
+        }
+
+        span {
+          font-size: 30px;
+          color: white;
+          .color-logo {
+            color: #00FFE0;
+          }
+        }
+      }
+
       .menu-bar{
         display: none;
       }
@@ -61,13 +77,18 @@
       h2 {
         color: white;
         font-size: 64px;
+        display: flex;
+        justify-content: center;
 
         span {
-          color: #12AAFF;
+          display: flex;
+          align-items: center;
+          color: #f3ba2f;
         }
 
         img {
           margin-left: 10px;
+          width: 60px;
         }
       }
 
@@ -275,8 +296,12 @@
         gap: 130px;
         align-items: center;
 
+        img {
+          border-radius: 250px;
+        }
+
         .difficult {
-          color: #009FD1;
+          color: #f3ba2f;
         }
       }
     }
@@ -671,8 +696,20 @@
         align-items: center;
       }
 
-      img {
-        display: block;
+      .logo {
+        display: flex;
+        align-items: center;
+        img {
+          width: 100px;
+        }
+
+        span {
+          font-size: 30px;
+          color: white;
+          .color-logo {
+            color: #00FFE0;
+          }
+        }
       }
     }
   }
@@ -1375,6 +1412,7 @@
         }
 
         h2 {
+          display: block;
           font-size: 36px;
         }
       }

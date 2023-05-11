@@ -16,6 +16,20 @@
   justify-content: space-between;
   align-items: center;
 }
+.main .title-section .header .logo {
+  display: flex;
+  align-items: center;
+}
+.main .title-section .header .logo img {
+  width: 100px;
+}
+.main .title-section .header .logo span {
+  font-size: 30px;
+  color: white;
+}
+.main .title-section .header .logo span .color-logo {
+  color: #00FFE0;
+}
 .main .title-section .header .menu-bar {
   display: none;
 }
@@ -52,12 +66,17 @@
 .main .title-section .title-items h2 {
   color: white;
   font-size: 64px;
+  display: flex;
+  justify-content: center;
 }
 .main .title-section .title-items h2 span {
-  color: #12AAFF;
+  display: flex;
+  align-items: center;
+  color: #f3ba2f;
 }
 .main .title-section .title-items h2 img {
   margin-left: 10px;
+  width: 60px;
 }
 .main .title-section .title-items .buy-btn {
   display: block;
@@ -227,8 +246,11 @@
   gap: 130px;
   align-items: center;
 }
+.main .section-1 .info-block .info-description img {
+  border-radius: 250px;
+}
 .main .section-1 .info-block .info-description .difficult {
-  color: #009FD1;
+  color: #f3ba2f;
 }
 .main .section-1 .roadmap {
   margin-top: 141px;
@@ -544,8 +566,19 @@
   gap: 52px;
   align-items: center;
 }
-.main .footer .footer-items img {
-  display: block;
+.main .footer .footer-items .logo {
+  display: flex;
+  align-items: center;
+}
+.main .footer .footer-items .logo img {
+  width: 100px;
+}
+.main .footer .footer-items .logo span {
+  font-size: 30px;
+  color: white;
+}
+.main .footer .footer-items .logo span .color-logo {
+  color: #00FFE0;
 }
 .main .adaptive-menu {
   display: none;
@@ -976,6 +1009,7 @@
     font-size: 70px;
   }
   .main .title-section .title-items h2 {
+    display: block;
     font-size: 36px;
   }
   .main .section-1 .wallet-block {
